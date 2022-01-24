@@ -1,10 +1,12 @@
 body {
-  font-family: "Poppins";
+  padding: 0;
   margin: 0;
-  margin-top: 2em;
-  margin-left: 5em;
-  margin-right: 5em;
-  background-color: #25262d;
+  padding-top: 2em;
+  padding-left: 5em;
+  padding-right: 5em;
+  height: 100vh;
+  font-family: "Poppins";
+  background: #25262d;
   color: #e5e5e5;
 }
 
