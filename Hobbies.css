@@ -34,6 +34,10 @@ header {
 
 img {
   transform: scale(0.8);
+  animation: op;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
 }
 
 .hob {
@@ -55,4 +59,14 @@ img {
 .hob hr {
   margin: 0%;
   width: 100%;
+}
+
+@keyframes op{
+  0%{
+    opacity: 0%;
+  }
+
+  100%{
+    opacity: 100%;
+  }
 }
