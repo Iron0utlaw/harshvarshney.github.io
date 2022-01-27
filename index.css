@@ -46,23 +46,23 @@ header ul {
   display: flex;
 }
 
-.Home-Cont {
+.cont {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row-reverse;
 }
 
-.Home-Cont img {
+.cont img {
   width: 50vw;
 }
 
-.Home-Cont .Text {
+.cont .text {
   margin-right: 1em;
   font-size: 2rem;
 }
 
-.Home-Cont .Text h1,
+.cont .text h1,
 h3,
 p {
   margin-bottom: 0;
@@ -70,13 +70,13 @@ p {
   margin-left: 0;
 }
 
-.Home-Cont .Text p {
+.cont .text p {
   margin-top: 1.5em;
   font-size: 1rem;
   margin-bottom: 2em;
 }
 
-.Home-Cont .Text button {
+.cont .text button {
   margin-top: 1em;
   font-size: 18px;
   background: #373737;
@@ -95,16 +95,16 @@ p {
   align-items: center;
 }
 
-.con {
+.lin {
   margin-top: 7px;
   display: none;
 }
 
-.con:hover {
+.lin:hover {
   display: block;
 }
 
-.Harsh:hover + .con {
+.Harsh:hover + .lin {
   display: block;
   animation: op;
   animation-timing-function: ease-in;
@@ -143,7 +143,7 @@ body {
   nav ul{
     display: inline;
   }
-  .Home-Cont{
+  .cont{
     display: flex;
     flex-direction: column-reverse;
     width: 80vw;
